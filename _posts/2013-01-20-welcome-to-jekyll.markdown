@@ -2,7 +2,7 @@
 layout: post
 title:  "Welcome to Jekyll!"
 date:   2013-01-20 22:31:35
-categories: jekyll sample
+categories: jekyll intro
 tags: [lessions, tutorial]
 ---
 
