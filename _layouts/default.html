@@ -51,8 +51,32 @@
     <!-- Sidebar -->
  
     <aside class="large-3 columns">
- 
-      <h5>Categories</h5>
+      
+    <h5>About</h5>
+      <ul class="side-nav">
+        <li>Created by John Ryan <a href="http://jnyryan@hithub.io">jnyryan@hithub.io</a></li>
+        <li><a href="https://github.com/jnyryan/jekyll-foundation-quickstart">Source Code</a></li>
+      </ul>
+
+      <h5>Pages</h5>
+      <ul class="side-nav">
+      {% assign pages_list = site.pages %}
+      {% for node in pages_list %}
+          {% if node.title != null %}
+            {% if group == null or group == node.group %}
+              {% if page.url == node.url %}
+              <li class="active"><a href="{{ BASE_PATH }}{{node.url}}" class="active">{{node.title}}</a></li>
+              {% else %}
+              <li><a href="{{ BASE_PATH }}{{node.url}}">{{node.title}}</a></li>
+              {% endif %}
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+      {% assign pages_list = nil %}
+      {% assign group = nil %}
+      </ul>
+
+      <h5>Links</h5>
       <ul class="side-nav">
         <li><a href="#">News</a></li>
         <li><a href="#">Code</a></li>
