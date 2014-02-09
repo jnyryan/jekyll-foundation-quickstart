@@ -15,8 +15,8 @@ See is running in this [demo](http://jekyllfoundationquickstart.herokuapp.com/)
 
 ###Change the site
 
-in the _layouts folder just change the default.html
-probably want to change the css as well.
+Obviously you'll want to customise this for yourself so the best place to start is in the _layouts folder just change the ***default.html***.
+Probably want to change the styles in the ***css*** folder as well.
 
 ###Run the site
 
