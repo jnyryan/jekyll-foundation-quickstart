@@ -20,6 +20,19 @@ jekyll serve
 in the _layouts folder just change the default.html
 probably want to change the css as well.
 
+###Deploy it on heroku
+
+```
+gem install bundler
+gem install heroku
+gem bundle install
+
+heroku create --stack cedar
+git push heroku master
+heroku open
+
+```
+
 LICENCE: [MIT](LICENSE)
 
 
