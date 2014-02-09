@@ -11,7 +11,7 @@ This is just a quickstart to get someone up and running with a basic blog that p
 - Pages
 - Comments using DISQUS
 
-See is tunning in this [demo](http://jekyllfoundationquickstart.herokuapp.com/)
+See is running in this [demo](http://jekyllfoundationquickstart.herokuapp.com/)
 
 ###Change the site
 
