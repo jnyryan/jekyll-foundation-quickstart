@@ -6,3 +6,6 @@ pygments: true
 # For more see: http://jekyllrb.com/docs/permalinks/
 #permalink: /:categories/:year/:month/:day/:title 
 permalink: /:title 
+
+# This is the key for the Disqus comments system 
+disqus_shortname: jekyllfoundationdemo
