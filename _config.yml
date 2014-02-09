@@ -11,4 +11,4 @@ permalink: /:title
 disqus_shortname: jekyllfoundationdemo
 
 # Exclude files that are used for deployment (in this case deploying to Heroku)
-exclude:  [ Gemfile, Gemfile.lock, Procfile, vendor]"
+exclude:  [ Gemfile, Gemfile.lock, Procfile, vendor]
