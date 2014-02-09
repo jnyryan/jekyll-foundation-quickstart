@@ -1,5 +1,5 @@
-jekyll-foundation-quickstart
-============================
+#jekyll-foundation-quickstart
+
 
 a quick setup for a jekyll based blog using the foundation framework by zurb
 
@@ -11,16 +11,19 @@ This is just a quickstart to get someone up and running with a basic blog that p
 - Pages
 - Comments using DISQUS
 
-See is running in this [demo](http://jekyllfoundationquickstart.herokuapp.com/)
+See it running in this [demo](http://jekyllfoundationquickstart.herokuapp.com/)
 
 ###Change the site
 
 Obviously you'll want to customise this for yourself so the best place to start is in the _layouts folder just change the ***default.html***.
 Probably want to change the styles in the ***css*** folder as well.
 
-###Run the site
+###Run the site locally
 
 Jekyll is Ruby based, so you'll need to have Ruby installed before running it.
+
+With Ruby installed, install the Jekyll gem and run it using these commands.
+
 
 ```
 gem install jekyll
