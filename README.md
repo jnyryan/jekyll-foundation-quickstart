@@ -10,17 +10,24 @@ This is just a quickstart to get someone up and running with a basic blog that p
 - Tags
 - Pages
 
-###Run the site
-```
-gem install jekyll
-jekyll serve
-```
 ###Change the site
 
 in the _layouts folder just change the default.html
 probably want to change the css as well.
 
-###Deploy it on heroku
+###Run the site
+
+Jekyll is Ruby based, so you'll need to have Ruby installed before running it.
+
+```
+gem install jekyll
+jekyll serve
+```
+
+###Deploy the site on heroku cloud
+
+Heroku is a cloud platform as a service supporting several programming languages. 
+You can easily deploy the site to Heroku for free using the commands below.
 
 ```
 gem install bundler
