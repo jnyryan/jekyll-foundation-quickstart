@@ -9,3 +9,6 @@ permalink: /:title
 
 # This is the key for the Disqus comments system 
 disqus_shortname: jekyllfoundationdemo
+
+# Exclude files that are used for deployment (in this case deploying to Heroku)
+exclude:  [ Gemfile, Gemfile.lock, Procfile, vendor]"
