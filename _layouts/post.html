@@ -1,8 +1,15 @@
 ---
 layout: default
+comments: true
 ---
 <article>
   <h3><a href="#">{{ page.title }}</a></h3>
   <h6>Written by <a href="#">John Ryan</a> on {{ page.date | date_to_string }}.</h6>
    {{ content }}
 </article>
+
+{% if page.comments %}
+
+{% include /disqus %}
+
+{% endif %}
