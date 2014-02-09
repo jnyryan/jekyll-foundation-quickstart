@@ -9,6 +9,9 @@ This is just a quickstart to get someone up and running with a basic blog that p
 - Categories
 - Tags
 - Pages
+- Comments using DISQUS
+
+See is tunning in this [demo](http://jekyllfoundationquickstart.herokuapp.com/)
 
 ###Change the site
 
