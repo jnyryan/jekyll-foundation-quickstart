@@ -11,6 +11,8 @@ This is just a quickstart to get someone up and running with a basic blog that p
 - Pages
 - Post Comments using ***DISQUS***
 - Contact form using ***SimpleForm***
+- Google Analytics
+- Heroku Deployment
 
 See it running in this [demo](http://jekyllfoundationquickstart.herokuapp.com/)
 

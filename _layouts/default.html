@@ -125,6 +125,9 @@
     <script src="/js/foundation.min.js"></script>
     <script>
       $(document).foundation();
-    </script>
+    </script> 
+    {% if site.analytics_enabled %}
+      {% include /google_analytics %}
+    {% endif %}
   </body>
 </html>

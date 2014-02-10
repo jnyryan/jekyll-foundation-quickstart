@@ -16,5 +16,12 @@ disqus_shortname: jekyllfoundationdemo
 contactform_enabled: true 
 contactform_apitoken: f70a375b83a60ecfafe284aec39cd227
 
+
+# Google Analytics
+analytics_enabled: true
+analytics_key: UA-13112699-12
+analytics_site: jekyllfoundationquickstart.herokuapp.com
+
+# Heroku Deployment
 # Exclude files that are used for deployment (in this case deploying to Heroku)
 exclude:  [ Gemfile, Gemfile.lock, Procfile, vendor]
