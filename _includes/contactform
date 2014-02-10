@@ -1,23 +1,24 @@
-	<form action="http://getsimpleform.com/messages?form_api_token={{site.contact_apitoken}}" method="post">
+	<form action="http://getsimpleform.com/messages?form_api_token={{site.contactform_apitoken}}" method="post">
 
         <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
         <input type='hidden' name='redirect_to' value='http://www.google.com' />
 
         <!-- all your input fields here.... -->
-        <div class="large-12 columns">
-      		<div class="row">
-      		<div class="panel">
-        		<div class="large-4 columns">
-				    <input name="Name" type="text" placeholder="Name" />
-				</div>
 
-				<div class="large-12 columns">
+ 		<div class="row">
+      		<div class="large-12 columns">
+      			<div class="panel">
+					<div class="row">
+      					<div class="large-4 columns">
+				    		<input name="Name" type="text" placeholder="Name" />
+						</div>
+					</div>
+				<div class="row">
+					<div class="large-9 columns">
 				      <textarea name='Message' placeholder="Enter message here"></textarea>
+					</div>
 				</div>
-        		<input  type='text'  />
-
-        		<input class="small round button" type='submit' value='Contact form' />
-        	</div>
-        	</div>
-        </div>
+		 		<input class="small round button" type='submit' value='Send Message' />
+       		</div>
+       	</div>
      </form>

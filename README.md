@@ -9,7 +9,8 @@ This is just a quickstart to get someone up and running with a basic blog that p
 - Categories
 - Tags
 - Pages
-- Comments using DISQUS
+- Post Comments using ***DISQUS***
+- Contact form using ***SimpleForm***
 
 See it running in this [demo](http://jekyllfoundationquickstart.herokuapp.com/)
 
