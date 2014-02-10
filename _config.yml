@@ -7,8 +7,13 @@ pygments: true
 #permalink: /:categories/:year/:month/:day/:title 
 permalink: /:title 
 
-# This is the key for the Disqus comments system 
+# Comments System
+# This is the key for the Disqus comments system. Get one from http://disqus.com/
 disqus_shortname: jekyllfoundationdemo
+
+# Contact Form
+# The api key for getsimpleform. Get one from http://getsimpleform.com
+contact_apitoken: f70a375b83a60ecfafe284aec39cd227
 
 # Exclude files that are used for deployment (in this case deploying to Heroku)
 exclude:  [ Gemfile, Gemfile.lock, Procfile, vendor]
