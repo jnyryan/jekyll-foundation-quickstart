@@ -1,4 +1,6 @@
 name: Your New Jekyll Site
+slackline: This is my blog. It's awesome.
+
 markdown: redcarpet
 pygments: true
 

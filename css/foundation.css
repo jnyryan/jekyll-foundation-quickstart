@@ -127,7 +127,7 @@ select {
   margin-right: auto;
   margin-top: 0;
   margin-bottom: 0;
-  max-width: 80em;
+  max-width: 70em;
   *zoom: 1; }
   .row:before, .row:after {
     content: " ";
@@ -1602,7 +1602,7 @@ button, .button {
   padding-right: 2rem;
   padding-bottom: 1.0625rem;
   padding-left: 2rem;
-  font-size: 1rem;
+  font-size: .75rem;
   /*     @else                            { font-size: $padding - rem-calc(2); } */
   background-color: #2ba6cb;
   border-color: #2285a2;
